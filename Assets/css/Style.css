@@ -1,0 +1,44 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section{
+    background-image: url("../Img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    text-align: end;
+    font-size: 30px;
+    
+    }
+
+/* Proyectos */
+
+#Proyectos .image-top{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* Contacto */
+
+#Contacto form label{
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    #Contacto form label{
+        font-weight: 400;
+        color: #373a3c;
+    }
+
+    .navbar-brand{
+        width: 100px;
+    }
+}
+
